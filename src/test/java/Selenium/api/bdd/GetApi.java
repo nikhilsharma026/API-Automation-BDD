@@ -20,7 +20,8 @@ public class GetApi{
 	public void getapiresponse() {
 		
 		
-		RestAssured.baseURI="http://dummy.restapiexample.com/api/v1/employees";
+		RestAssured.baseURI="http://dummy.restapiexample.com/api/v1";
+		RestAssured.basePath="/employees";
 		
 		Response response= 
 		
